@@ -7,16 +7,15 @@ The pipeline is managed using **MLflow** for experiment tracking, with **audio o
 
 ---
 
-## ⚙️ Features  
+## ⚙ Features  
 - Transfer Learning with **VGGish** for audio embeddings  
 - **CNN models** applied on spectrogram features for secondary classification  
-- **Audio preprocessing** and augmentation using **Pydub**  
-- **ETL-style ML pipeline** with modular components  
+- **Audio preprocessing** and augmentation using **Pydub**   
 - **MLflow** integration for tracking and experiment management  
 
 ---
 
-## 🏗️ Workflow  
+##  Workflow  
 
 1. Update `config.yaml`  
 2. Update `secrets.yaml` (Optional)  
@@ -31,7 +30,7 @@ The pipeline is managed using **MLflow** for experiment tracking, with **audio o
 
 ---
 
-## 🛠️ Tools & Technologies  
+##  Tools & Technologies  
 - **Deep Learning**: CNN, Transfer Learning (VGGish)  
 - **Libraries**: Scikit-Learn, Pydub, MLflow  
 - **Data Representation**: Spectrogram-based feature extraction  
